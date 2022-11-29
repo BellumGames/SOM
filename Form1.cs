@@ -86,7 +86,7 @@ namespace SOM
                     at = 0.7 * Math.Pow(Math.E, (-t / N));
                     Vt = 6.1 * Math.Pow(Math.E, (-t / N));
                     DrawNeurons(Neurons);
-                    System.Threading.Thread.Sleep(300);
+                    System.Threading.Thread.Sleep(500);
                 }
                 nAlpha.BeginInvoke((Action)(() =>
                 {
